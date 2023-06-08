@@ -1,0 +1,28 @@
+{
+  "name": "markdownpreviewer",
+  "version": "1.0.0",
+  "description": "markdown markdown previewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliammari/markdown-previewer.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "ali ammari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliammari/markdown-previewer/issues"
+  },
+  "homepage": "https://github.com/aliammari/markdown-previewer#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "redis": "^4.6.7",
+    "share": "^0.7.40"
+  }
+}
